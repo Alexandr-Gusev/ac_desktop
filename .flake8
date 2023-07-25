@@ -1,0 +1,9 @@
+[flake8]
+ignore =
+    E501 # line too long
+    E722 # do not use bare 'except'
+    W504 # line break after binary operator
+exclude =
+    main_window_ui.py
+    venv
+    __pycache__
